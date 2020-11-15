@@ -6,6 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5891CE52561EC23005B5307 /* GameEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CE22561EC22005B5307 /* GameEngine.cpp */; };
+		B5891CE62561EC23005B5307 /* GameEngineDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CE32561EC22005B5307 /* GameEngineDriver.cpp */; };
+		B5891CEC2561ECC0005B5307 /* CardsDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CEA2561ECC0005B5307 /* CardsDriver.cpp */; };
+		B5891CED2561ECC0005B5307 /* Cards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CEB2561ECC0005B5307 /* Cards.cpp */; };
+		B5891CF42561ED4E005B5307 /* OrdersDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CF12561ED4E005B5307 /* OrdersDriver.cpp */; };
+		B5891CF52561ED4E005B5307 /* Orders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CF32561ED4E005B5307 /* Orders.cpp */; };
+		B5891CFD2561ED98005B5307 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CFB2561ED97005B5307 /* Map.cpp */; };
+		B5891CFE2561ED98005B5307 /* MapDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891CFC2561ED98005B5307 /* MapDriver.cpp */; };
+		B5891D052561EDB5005B5307 /* MapLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891D022561EDB5005B5307 /* MapLoader.cpp */; };
+		B5891D062561EDB5005B5307 /* MapLoaderDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891D042561EDB5005B5307 /* MapLoaderDriver.cpp */; };
+		B5891D0D2561EDD0005B5307 /* PlayerDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891D0A2561EDD0005B5307 /* PlayerDriver.cpp */; };
+		B5891D0E2561EDD0005B5307 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5891D0C2561EDD0005B5307 /* Player.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B5891CCB2561E655005B5307 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,11 +35,25 @@
 
 /* Begin PBXFileReference section */
 		B5891CCD2561E655005B5307 /* Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5891CD82561E6DF005B5307 /* Part1_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Part1_1; sourceTree = "<group>"; };
-		B5891CD92561E6DF005B5307 /* Part1_5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Part1_5; sourceTree = "<group>"; };
-		B5891CDA2561E6DF005B5307 /* Part1_2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Part1_2; sourceTree = "<group>"; };
-		B5891CDB2561E6DF005B5307 /* Part1_3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Part1_3; sourceTree = "<group>"; };
-		B5891CDC2561E6DF005B5307 /* Part1_4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Part1_4; sourceTree = "<group>"; };
+		B5891CDF2561EB6E005B5307 /* Maps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Maps; sourceTree = "<group>"; };
+		B5891CE22561EC22005B5307 /* GameEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameEngine.cpp; sourceTree = "<group>"; };
+		B5891CE32561EC22005B5307 /* GameEngineDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameEngineDriver.cpp; sourceTree = "<group>"; };
+		B5891CE42561EC23005B5307 /* GameEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameEngine.hpp; sourceTree = "<group>"; };
+		B5891CE92561ECC0005B5307 /* Cards.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cards.hpp; sourceTree = "<group>"; };
+		B5891CEA2561ECC0005B5307 /* CardsDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardsDriver.cpp; sourceTree = "<group>"; };
+		B5891CEB2561ECC0005B5307 /* Cards.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cards.cpp; sourceTree = "<group>"; };
+		B5891CF12561ED4E005B5307 /* OrdersDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrdersDriver.cpp; sourceTree = "<group>"; };
+		B5891CF22561ED4E005B5307 /* Orders.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Orders.hpp; sourceTree = "<group>"; };
+		B5891CF32561ED4E005B5307 /* Orders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Orders.cpp; sourceTree = "<group>"; };
+		B5891CFA2561ED97005B5307 /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		B5891CFB2561ED97005B5307 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		B5891CFC2561ED98005B5307 /* MapDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapDriver.cpp; sourceTree = "<group>"; };
+		B5891D022561EDB5005B5307 /* MapLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapLoader.cpp; sourceTree = "<group>"; };
+		B5891D032561EDB5005B5307 /* MapLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MapLoader.hpp; sourceTree = "<group>"; };
+		B5891D042561EDB5005B5307 /* MapLoaderDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapLoaderDriver.cpp; sourceTree = "<group>"; };
+		B5891D0A2561EDD0005B5307 /* PlayerDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerDriver.cpp; sourceTree = "<group>"; };
+		B5891D0B2561EDD0005B5307 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		B5891D0C2561EDD0005B5307 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,13 +86,75 @@
 		B5891CCF2561E655005B5307 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				B5891CD82561E6DF005B5307 /* Part1_1 */,
-				B5891CDA2561E6DF005B5307 /* Part1_2 */,
-				B5891CDB2561E6DF005B5307 /* Part1_3 */,
-				B5891CDC2561E6DF005B5307 /* Part1_4 */,
-				B5891CD92561E6DF005B5307 /* Part1_5 */,
+				B5891D002561EDA4005B5307 /* 1.1 */,
+				B5891D082561EDBF005B5307 /* 1.2 */,
+				B5891D102561EDEE005B5307 /* 1.3 */,
+				B5891CF72561ED5D005B5307 /* 1.4 */,
+				B5891CEF2561ECC9005B5307 /* 1.5 */,
+				B5891CE82561EC31005B5307 /* 2.1 */,
+				B5891CDF2561EB6E005B5307 /* Maps */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		B5891CE82561EC31005B5307 /* 2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				B5891CE22561EC22005B5307 /* GameEngine.cpp */,
+				B5891CE42561EC23005B5307 /* GameEngine.hpp */,
+				B5891CE32561EC22005B5307 /* GameEngineDriver.cpp */,
+			);
+			path = 2.1;
+			sourceTree = "<group>";
+		};
+		B5891CEF2561ECC9005B5307 /* 1.5 */ = {
+			isa = PBXGroup;
+			children = (
+				B5891CEB2561ECC0005B5307 /* Cards.cpp */,
+				B5891CE92561ECC0005B5307 /* Cards.hpp */,
+				B5891CEA2561ECC0005B5307 /* CardsDriver.cpp */,
+			);
+			path = 1.5;
+			sourceTree = "<group>";
+		};
+		B5891CF72561ED5D005B5307 /* 1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				B5891CF32561ED4E005B5307 /* Orders.cpp */,
+				B5891CF22561ED4E005B5307 /* Orders.hpp */,
+				B5891CF12561ED4E005B5307 /* OrdersDriver.cpp */,
+			);
+			path = 1.4;
+			sourceTree = "<group>";
+		};
+		B5891D002561EDA4005B5307 /* 1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				B5891CFB2561ED97005B5307 /* Map.cpp */,
+				B5891CFA2561ED97005B5307 /* Map.hpp */,
+				B5891CFC2561ED98005B5307 /* MapDriver.cpp */,
+			);
+			path = 1.1;
+			sourceTree = "<group>";
+		};
+		B5891D082561EDBF005B5307 /* 1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5891D022561EDB5005B5307 /* MapLoader.cpp */,
+				B5891D032561EDB5005B5307 /* MapLoader.hpp */,
+				B5891D042561EDB5005B5307 /* MapLoaderDriver.cpp */,
+			);
+			path = 1.2;
+			sourceTree = "<group>";
+		};
+		B5891D102561EDEE005B5307 /* 1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				B5891D0C2561EDD0005B5307 /* Player.cpp */,
+				B5891D0B2561EDD0005B5307 /* Player.hpp */,
+				B5891D0A2561EDD0005B5307 /* PlayerDriver.cpp */,
+			);
+			path = 1.3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5891CFE2561ED98005B5307 /* MapDriver.cpp in Sources */,
+				B5891D052561EDB5005B5307 /* MapLoader.cpp in Sources */,
+				B5891CEC2561ECC0005B5307 /* CardsDriver.cpp in Sources */,
+				B5891D062561EDB5005B5307 /* MapLoaderDriver.cpp in Sources */,
+				B5891CE52561EC23005B5307 /* GameEngine.cpp in Sources */,
+				B5891CF52561ED4E005B5307 /* Orders.cpp in Sources */,
+				B5891CE62561EC23005B5307 /* GameEngineDriver.cpp in Sources */,
+				B5891CF42561ED4E005B5307 /* OrdersDriver.cpp in Sources */,
+				B5891D0E2561EDD0005B5307 /* Player.cpp in Sources */,
+				B5891D0D2561EDD0005B5307 /* PlayerDriver.cpp in Sources */,
+				B5891CFD2561ED98005B5307 /* Map.cpp in Sources */,
+				B5891CED2561ECC0005B5307 /* Cards.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
