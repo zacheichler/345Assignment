@@ -9,9 +9,9 @@
 using namespace std;
 
 //reads from file and returns borders as strings for each territory
-vector<string> sBorderList = makeBorderListString("google2.map");
+vector<string> sBorderList = makeBorderListString("europe.map");
 //gets continents for each territory
-vector<int> continents = getContinents("google2.map");
+vector<int> continents = getContinents("europe.map");
 //takes string inputs and creates an int vector of int vectors for the borders
 vector<vector<int>> iBorderList = makeBorderListInt(sBorderList);
 

@@ -3,9 +3,9 @@
 //  Emilie Mines & Zach Eichler.
 
 #include "Player.hpp"
-#include "/Users/emiliemines/Desktop/COMP_345/A1/Part5/Part5/Cards.cpp"
-#include "/Users/emiliemines/Desktop/COMP_345/A1/Part4/Part4/Orders.cpp"
-#include "/Users/emiliemines/Desktop/COMP_345/A1/Part1/Part1/Map.cpp"
+#include "Cards.cpp"
+#include "Orders.cpp"
+#include "Map.cpp"
 #include <iostream>
 #include <string>
 #include <vector>

@@ -5,9 +5,9 @@
 #ifndef Player_hpp
 #define Player_hpp
 #include <stdio.h>
-#include "/Users/emiliemines/Desktop/COMP_345/A1/Part5/Part5/Cards.hpp"
-#include "/Users/emiliemines/Desktop/COMP_345/A1/Part4/Part4/Orders.hpp"
-#include "/Users/emiliemines/Desktop/COMP_345/A1/Part1/Part1/Map.hpp"
+#include "Cards.hpp"
+#include "Orders.hpp"
+#include "Map.hpp"
 #include <string>
 #include <vector>
 
