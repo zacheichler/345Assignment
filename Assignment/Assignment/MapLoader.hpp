@@ -5,11 +5,14 @@
 #ifndef Map_hpp
 #define Map_hpp
 
+
+
 #include <stdio.h>
 #include <vector>
 #include <string>
 #include <iostream>
 #include <list>
+#include "Map.hpp"
 
 using namespace std;
 
@@ -18,7 +21,7 @@ vector<string> makeBorderListString(string filename);
 vector<vector<int>>makeBorderListInt(vector<string> borderList);
 vector<int> getContinents(string filename);
 
-
+/*
 
 class Territory{
     int continent;
@@ -69,5 +72,9 @@ public:
 
     
 };
+ 
+ */
+ 
+ 
 
 #endif /* Map_hpp */

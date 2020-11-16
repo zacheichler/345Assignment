@@ -6,6 +6,8 @@
 //
 
 #include "GameEngine.hpp"
-#include "/Users/zacheichler/Documents/SChool/345/Assignment/Assignment 1/Part2/Part2/MapLoader.cpp"
+#include "Map.cpp"
+#include "MapLoader.cpp"
+
 
 

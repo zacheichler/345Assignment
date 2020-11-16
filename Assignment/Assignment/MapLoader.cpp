@@ -3,6 +3,9 @@
 //  Emilie Mines & Zach Eichler.
 
 #include "MapLoader.hpp"
+#include "Map.cpp"
+
+
 
 #include <iostream>
 #include <fstream>
@@ -13,6 +16,8 @@
 #include <list>
 
 using namespace std;
+
+/*
 
 
 //Create map of int v
@@ -129,6 +134,8 @@ Territory Territory::getNext(){
 void Territory::printStuff(){
     cout << continent << " " << ownedBy << " " << numArmies << endl;
 }
+ 
+ */
     
 
 

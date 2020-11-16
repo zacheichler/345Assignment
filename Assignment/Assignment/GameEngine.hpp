@@ -7,7 +7,9 @@
 
 #ifndef GameEngine_hpp
 #define GameEngine_hpp
-#include "/Users/zacheichler/Documents/SChool/345/Assignment/Assignment 1/Part2/Part2/MapLoader.hpp"
+
+#include "MapLoader.hpp"
+#include "Map.hpp"
 
 #include <stdio.h>
 

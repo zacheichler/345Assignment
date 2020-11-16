@@ -5,6 +5,8 @@
 #include <iostream>
 #include <list>
 #include "MapLoader.hpp"
+#include "Map.hpp"
+
 
 using namespace std;
 
